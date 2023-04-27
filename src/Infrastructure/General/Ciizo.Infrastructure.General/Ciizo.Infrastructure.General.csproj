@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Exception\" />
+    <Folder Include="Logger\" />
+    <Folder Include="Persistence\" />
+  </ItemGroup>
+
 </Project>
