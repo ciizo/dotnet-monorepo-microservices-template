@@ -1,7 +1,6 @@
 ﻿namespace Ciizo.Example.Infrastructure
 {
-    public class Class1
+    public class ExampleContext
     {
-
     }
 }
