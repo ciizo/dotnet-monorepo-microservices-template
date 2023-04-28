@@ -1,6 +1,8 @@
-﻿namespace Ciizo.Example.Infrastructure
+﻿using Ciizo.Domain.General.Repository;
+
+namespace Ciizo.Example.Infrastructure
 {
-    public class ExampleContext
+    public class ExampleContext : IDbContext
     {
     }
 }

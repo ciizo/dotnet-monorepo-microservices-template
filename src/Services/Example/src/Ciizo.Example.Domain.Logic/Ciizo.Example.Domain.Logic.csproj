@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Helpers\" />
+    <ProjectReference Include="..\..\..\..\Domain\Ciizo.Domain.General\Ciizo.Domain.General.csproj" />
+    <ProjectReference Include="..\..\..\..\Infrastructure\Share\Ciizo.Infrastructure.Share\Ciizo.Infrastructure.Share.csproj" />
+    <ProjectReference Include="..\Ciizo.Example.Domain.Entities\Ciizo.Example.Domain.Entities.csproj" />
   </ItemGroup>
 
 </Project>

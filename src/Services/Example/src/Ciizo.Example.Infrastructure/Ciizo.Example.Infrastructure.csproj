@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Migrations\" />
+    <ProjectReference Include="..\..\..\..\Domain\Ciizo.Domain.General\Ciizo.Domain.General.csproj" />
+    <ProjectReference Include="..\..\..\..\Infrastructure\Share\Ciizo.Infrastructure.Share\Ciizo.Infrastructure.Share.csproj" />
+    <ProjectReference Include="..\Ciizo.Example.Domain.Entities\Ciizo.Example.Domain.Entities.csproj" />
   </ItemGroup>
 
 </Project>

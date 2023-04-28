@@ -24,27 +24,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{29
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{E3C32324-85DB-4B0F-8A2E-F64960BA1C02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciizo.Infrastructure.Share", "src\Infrastructure\Share\Ciizo.Infrastructure.Share\Ciizo.Infrastructure.Share.csproj", "{E43A4B3C-91DB-4ACE-8311-E1C7089C0AA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ciizo.Infrastructure.Share", "src\Infrastructure\Share\Ciizo.Infrastructure.Share\Ciizo.Infrastructure.Share.csproj", "{E43A4B3C-91DB-4ACE-8311-E1C7089C0AA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciizo.Infrastructure.Security", "src\Infrastructure\Security\Ciizo.Infrastructure.Security\Ciizo.Infrastructure.Security.csproj", "{418C2B1E-65DE-4C62-B23F-7304A28D24F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ciizo.Infrastructure.Security", "src\Infrastructure\Security\Ciizo.Infrastructure.Security\Ciizo.Infrastructure.Security.csproj", "{418C2B1E-65DE-4C62-B23F-7304A28D24F9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "General", "General", "{28E73B15-1CBD-4776-A198-FE761A815F13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciizo.Infrastructure.General", "src\Infrastructure\General\Ciizo.Infrastructure.General\Ciizo.Infrastructure.General.csproj", "{F45B57A8-EF9F-4A15-A7D9-2F9FA18717E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ciizo.Infrastructure.General", "src\Infrastructure\General\Ciizo.Infrastructure.General\Ciizo.Infrastructure.General.csproj", "{F45B57A8-EF9F-4A15-A7D9-2F9FA18717E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciizo.Infrastructure.Cache", "src\Infrastructure\Cache\Ciizo.Infrastructure.Cache\Ciizo.Infrastructure.Cache.csproj", "{4CAA05AA-9B62-4FAB-8A74-3FD0149BBBDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ciizo.Infrastructure.Cache", "src\Infrastructure\Cache\Ciizo.Infrastructure.Cache\Ciizo.Infrastructure.Cache.csproj", "{4CAA05AA-9B62-4FAB-8A74-3FD0149BBBDB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{18BB08EF-9684-4C8D-865B-029C406A1881}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F78104EE-3D19-48CD-8358-B3A2CB88834C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciizo.Example.Infrastructure", "src\Services\Example\src\Ciizo.Example.Infrastructure\Ciizo.Example.Infrastructure.csproj", "{6F86B93D-4FFD-48EF-826B-5AB0F6B3DEB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ciizo.Example.Infrastructure", "src\Services\Example\src\Ciizo.Example.Infrastructure\Ciizo.Example.Infrastructure.csproj", "{6F86B93D-4FFD-48EF-826B-5AB0F6B3DEB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciizo.Example.Api", "src\Services\Example\src\Ciizo.Example.Api\Ciizo.Example.Api.csproj", "{B5F6D8EB-7E4C-44A3-8577-4AE4F724AF99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ciizo.Example.Api", "src\Services\Example\src\Ciizo.Example.Api\Ciizo.Example.Api.csproj", "{B5F6D8EB-7E4C-44A3-8577-4AE4F724AF99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciizo.Example.Domain.Logic", "src\Services\Example\src\Ciizo.Example.Domain.Logic\Ciizo.Example.Domain.Logic.csproj", "{984829C6-F7B4-4408-A547-46D8D96FCD21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ciizo.Example.Domain.Logic", "src\Services\Example\src\Ciizo.Example.Domain.Logic\Ciizo.Example.Domain.Logic.csproj", "{984829C6-F7B4-4408-A547-46D8D96FCD21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciizo.Example.Domain.Entities", "src\Services\Example\src\Ciizo.Example.Domain.Entities\Ciizo.Example.Domain.Entities.csproj", "{B6D89D0A-34E4-4465-9D39-D64F585AC3D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ciizo.Example.Domain.Entities", "src\Services\Example\src\Ciizo.Example.Domain.Entities\Ciizo.Example.Domain.Entities.csproj", "{B6D89D0A-34E4-4465-9D39-D64F585AC3D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{86118FD1-F27F-4AED-AD79-C7DBFD0D2731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciizo.Domain.General", "src\Domain\Ciizo.Domain.General\Ciizo.Domain.General.csproj", "{B646FD96-345D-4319-90C4-E25616F0A4B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -84,6 +88,10 @@ Global
 		{B6D89D0A-34E4-4465-9D39-D64F585AC3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6D89D0A-34E4-4465-9D39-D64F585AC3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6D89D0A-34E4-4465-9D39-D64F585AC3D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B646FD96-345D-4319-90C4-E25616F0A4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B646FD96-345D-4319-90C4-E25616F0A4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B646FD96-345D-4319-90C4-E25616F0A4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B646FD96-345D-4319-90C4-E25616F0A4B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +114,8 @@ Global
 		{B5F6D8EB-7E4C-44A3-8577-4AE4F724AF99} = {18BB08EF-9684-4C8D-865B-029C406A1881}
 		{984829C6-F7B4-4408-A547-46D8D96FCD21} = {18BB08EF-9684-4C8D-865B-029C406A1881}
 		{B6D89D0A-34E4-4465-9D39-D64F585AC3D9} = {18BB08EF-9684-4C8D-865B-029C406A1881}
+		{86118FD1-F27F-4AED-AD79-C7DBFD0D2731} = {7A57E6FD-B65B-41C9-8639-FD82FF556287}
+		{B646FD96-345D-4319-90C4-E25616F0A4B4} = {86118FD1-F27F-4AED-AD79-C7DBFD0D2731}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97D504F5-EA90-4CE3-BBD2-713135381992}
