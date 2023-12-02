@@ -9,6 +9,7 @@
   <ItemGroup>
     <Folder Include="Entities\" />
     <Folder Include="Helpers\" />
+    <Folder Include="Interfaces\" />
   </ItemGroup>
 
 </Project>
