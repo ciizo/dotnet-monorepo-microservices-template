@@ -5,8 +5,10 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B9228BA8-CD33-459B-8242-77137938114D}"
 	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		.gitmodules = .gitmodules
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -48,7 +50,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ciizo.Example.Domain.Entiti
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{86118FD1-F27F-4AED-AD79-C7DBFD0D2731}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciizo.Domain.General", "src\Domain\Ciizo.Domain.General\Ciizo.Domain.General.csproj", "{B646FD96-345D-4319-90C4-E25616F0A4B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ciizo.Domain.General", "src\Domain\Ciizo.Domain.General\Ciizo.Domain.General.csproj", "{B646FD96-345D-4319-90C4-E25616F0A4B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SubrepoService", "SubrepoService", "{C7995137-10B0-47D6-94CA-C5193E486B8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{7E43B47B-6B55-4C77-AE02-BCB415C2B850}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{8A4BA635-872E-4A28-9E96-791256BF2FE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3E59D441-8BDD-4484-93C6-D6893C0B7E15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ciizo.Example.Api", "src\Services\SubrepoService\src\Application\Ciizo.Example.Api\Ciizo.Example.Api.csproj", "{4BE5297C-19DE-45D5-8B47-59AA95296937}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ciizo.Example.Domain.Entities", "src\Services\SubrepoService\src\Domain\Ciizo.Example.Domain.Entities\Ciizo.Example.Domain.Entities.csproj", "{EB11D370-709C-4FEB-969B-E47F67C07E42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ciizo.Example.Domain.Logic", "src\Services\SubrepoService\src\Domain\Ciizo.Example.Domain.Logic\Ciizo.Example.Domain.Logic.csproj", "{596CCE7F-2BC9-436E-AD1B-3A51FDD53614}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ciizo.Example.Infrastructure", "src\Services\SubrepoService\src\Infrastructure\Ciizo.Example.Infrastructure\Ciizo.Example.Infrastructure.csproj", "{E5A72814-FCD4-472D-A829-BE039929070B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -92,6 +110,22 @@ Global
 		{B646FD96-345D-4319-90C4-E25616F0A4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B646FD96-345D-4319-90C4-E25616F0A4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B646FD96-345D-4319-90C4-E25616F0A4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE5297C-19DE-45D5-8B47-59AA95296937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE5297C-19DE-45D5-8B47-59AA95296937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE5297C-19DE-45D5-8B47-59AA95296937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE5297C-19DE-45D5-8B47-59AA95296937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB11D370-709C-4FEB-969B-E47F67C07E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB11D370-709C-4FEB-969B-E47F67C07E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB11D370-709C-4FEB-969B-E47F67C07E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB11D370-709C-4FEB-969B-E47F67C07E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596CCE7F-2BC9-436E-AD1B-3A51FDD53614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596CCE7F-2BC9-436E-AD1B-3A51FDD53614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596CCE7F-2BC9-436E-AD1B-3A51FDD53614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596CCE7F-2BC9-436E-AD1B-3A51FDD53614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5A72814-FCD4-472D-A829-BE039929070B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5A72814-FCD4-472D-A829-BE039929070B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5A72814-FCD4-472D-A829-BE039929070B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5A72814-FCD4-472D-A829-BE039929070B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +150,14 @@ Global
 		{B6D89D0A-34E4-4465-9D39-D64F585AC3D9} = {18BB08EF-9684-4C8D-865B-029C406A1881}
 		{86118FD1-F27F-4AED-AD79-C7DBFD0D2731} = {7A57E6FD-B65B-41C9-8639-FD82FF556287}
 		{B646FD96-345D-4319-90C4-E25616F0A4B4} = {86118FD1-F27F-4AED-AD79-C7DBFD0D2731}
+		{C7995137-10B0-47D6-94CA-C5193E486B8F} = {292D7B84-E10F-4D5A-927E-6F97397B4232}
+		{7E43B47B-6B55-4C77-AE02-BCB415C2B850} = {C7995137-10B0-47D6-94CA-C5193E486B8F}
+		{8A4BA635-872E-4A28-9E96-791256BF2FE8} = {C7995137-10B0-47D6-94CA-C5193E486B8F}
+		{3E59D441-8BDD-4484-93C6-D6893C0B7E15} = {C7995137-10B0-47D6-94CA-C5193E486B8F}
+		{4BE5297C-19DE-45D5-8B47-59AA95296937} = {7E43B47B-6B55-4C77-AE02-BCB415C2B850}
+		{EB11D370-709C-4FEB-969B-E47F67C07E42} = {8A4BA635-872E-4A28-9E96-791256BF2FE8}
+		{596CCE7F-2BC9-436E-AD1B-3A51FDD53614} = {8A4BA635-872E-4A28-9E96-791256BF2FE8}
+		{E5A72814-FCD4-472D-A829-BE039929070B} = {3E59D441-8BDD-4484-93C6-D6893C0B7E15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97D504F5-EA90-4CE3-BBD2-713135381992}

@@ -1,0 +1,4 @@
+[submodule "src/Services/SubrepoService"]
+	path = src/Services/SubrepoService
+	url = https://github.com/ciizo/dotnet-subservice-template.git
+	branch = main
