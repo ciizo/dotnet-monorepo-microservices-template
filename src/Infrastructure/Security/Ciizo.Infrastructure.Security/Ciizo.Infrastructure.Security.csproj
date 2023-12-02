@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Share\Ciizo.Infrastructure.Share\Ciizo.Infrastructure.Share.csproj" />
+  </ItemGroup>
+
 </Project>

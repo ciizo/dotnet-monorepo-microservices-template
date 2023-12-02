@@ -11,4 +11,14 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Domain\Ciizo.Domain.General\Ciizo.Domain.General.csproj" />
+    <ProjectReference Include="..\..\..\..\Infrastructure\Cache\Ciizo.Infrastructure.Cache\Ciizo.Infrastructure.Cache.csproj" />
+    <ProjectReference Include="..\..\..\..\Infrastructure\General\Ciizo.Infrastructure.General\Ciizo.Infrastructure.General.csproj" />
+    <ProjectReference Include="..\..\..\..\Infrastructure\Security\Ciizo.Infrastructure.Security\Ciizo.Infrastructure.Security.csproj" />
+    <ProjectReference Include="..\..\..\..\Infrastructure\Share\Ciizo.Infrastructure.Share\Ciizo.Infrastructure.Share.csproj" />
+    <ProjectReference Include="..\Ciizo.Example.Domain.Logic\Ciizo.Example.Domain.Logic.csproj" />
+    <ProjectReference Include="..\Ciizo.Example.Infrastructure\Ciizo.Example.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

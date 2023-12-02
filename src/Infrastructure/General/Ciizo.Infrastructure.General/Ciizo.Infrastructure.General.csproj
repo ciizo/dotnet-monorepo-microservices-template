@@ -7,9 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Exception\" />
-    <Folder Include="Logger\" />
-    <Folder Include="Persistence\" />
+    <ProjectReference Include="..\..\..\Domain\Ciizo.Domain.General\Ciizo.Domain.General.csproj" />
+    <ProjectReference Include="..\..\Share\Ciizo.Infrastructure.Share\Ciizo.Infrastructure.Share.csproj" />
   </ItemGroup>
 
 </Project>
